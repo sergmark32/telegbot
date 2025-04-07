@@ -15,7 +15,7 @@ bot.start((ctx) => {
     `Привет, ${userName}! Выбери район а потом отправь мне видео, и я все сделаю.`,
     Markup.inlineKeyboard([
       Markup.button.callback('Советский р-н', 'folder_sovet'),
-      Markup.button.callback('Фокинский р-н', 'folder_fok'),
+      Markup.button.callback('Фjjокинский р-н', 'folder_fok'),
     ])
   );
 });
